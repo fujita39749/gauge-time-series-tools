@@ -1,0 +1,14 @@
+[project]
+name = "gauge-time-series-tools"
+version = "0.1.0"
+description = "Keeps timestamped gauge readings and answers last-value and average queries."
+requires-python = ">=3.10"
+dependencies = []
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
